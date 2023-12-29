@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 '>
       <div>
-        <h1 className='text-5xl font-signature ml-2'>Mudit Srivastava</h1>
+        <h1 className='text-5xl font-signature ml-2 m-4 sm:m-0'>Mudit Srivastava</h1>
       </div>
       <ul className='hidden md:flex'>
         {links.map(({ id, link }) => (
@@ -31,7 +31,7 @@ const Navbar = () => {
         <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
           {links.map(({ id, link }) => (
             <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-              {link}
+              <Link onClick={()=> setNav(!Nav)} to={link} smooth duration={500}>{link}</Link>
             </li>
           ))}
         </ul>
