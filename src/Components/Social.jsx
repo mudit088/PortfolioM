@@ -48,7 +48,7 @@ const Social = () => {
       </>
     ),
     href: '/Resume.pdf',
-    style: 'rounded-tr-md',
+   
     download: true,
    
   },

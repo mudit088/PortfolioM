@@ -1,9 +1,10 @@
 
 import './App.css'
 import About from './Components/About'
+import Expierence from './Components/Expierence'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
-import Porfolio from './Components/Porfolio'
+import Portfolio from './Components/Portfolio'
 import Social from './Components/Social'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Home/>
       <Social/>
       <About/>
-      <Porfolio/>
+      <Portfolio/>
+      <Expierence/>
     </div>
   )
 }
