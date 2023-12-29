@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-scroll";
 
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>A Web Developer :)</h2>
                 <p className='text-gray-500 py-4 max-w-md '>Seeking opportunities to collaborate within a team, leveraging strong problem-solving skills and a proactive attitude to tackle new challenges..</p>
                 <div>
-                <button className='text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer  '>Portfolio</button>
+                <Link to="Portfolio" smooth duration={500} className='text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer  '>Portfolio</Link>
                 </div>
             </div>
             
