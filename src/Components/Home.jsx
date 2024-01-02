@@ -13,9 +13,7 @@ const Home = () => {
                 <Link to="Portfolio" smooth duration={500} className='text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer  '>Portfolio</Link>
                 </div>
             </div>
-            
-           
-
+                         
             <div className=''>
             <img src="/Mudit-bg.png" alt="my profile"className='rounded-2xl mx-auto  w-max md:w-full ' />
 

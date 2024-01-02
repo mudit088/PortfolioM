@@ -14,7 +14,7 @@ const Social = () => {
       
       </>
     ),
-    href: 'https://www.linkedin.com/in/mudit-srivastava-823565249/',
+    href: 'https://www.linkedin.com/in/mudit8/',
     style: 'rounded-tr-md'
   },
   {
