@@ -148,7 +148,7 @@ const Portfolio = () => {
      
       
       
-      <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
+      {/* <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
 
         <img className='rounded-md duration-200 hover:scale-105' src="/Form.png" alt="" />
         <div className='flex items-center justify-center'>
@@ -168,7 +168,7 @@ const Portfolio = () => {
           </button>
         </div>
 
-      </div>
+      </div> */}
       
 
 
