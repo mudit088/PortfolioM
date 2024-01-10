@@ -17,6 +17,29 @@ const Portfolio = () => {
 
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
+
+
+        <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
+
+          <img className='rounded-md duration-200 hover:scale-105' src="/Lern-web.png" alt="" />
+              <div className='flex items-center justify-center'>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                    <ul>
+                        <li>
+                          <a target='_blank' href="https://lern-web.vercel.app/">Demo</a>
+                        </li>
+                      </ul>
+                    </button>
+                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                    <ul>
+                        <li>
+                          <a target='_blank' href="https://github.com/mudit088/Lern_web.git">Code</a>
+                        </li>
+                      </ul>
+                  </button>
+              </div>
+
+          </div>
       
       
       <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
