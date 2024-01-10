@@ -12,7 +12,7 @@ const Portfolio = () => {
 
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-          <p className='py-6 font-medium'> Check some of my work here</p>
+          <p className='py-6  text-xl font-bold'> Check some of my work here... :)</p>
         </div>
 
 
@@ -40,6 +40,30 @@ const Portfolio = () => {
               </div>
 
           </div>
+
+
+          <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
+
+          <img className='rounded-md duration-200  hover:scale-105' src="/Portfolio-pic.png" alt="" />
+              <div className='flex items-center justify-center'>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                    <ul>
+                        <li>
+                          <a target='_blank' href="https://portfolio-m-tawny.vercel.app/">Demo</a>
+                        </li>
+                      </ul>
+                    </button>
+                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                    <ul>
+                        <li>
+                          <a target='_blank' href="https://github.com/mudit088/PortfolioM.git">Code</a>
+                        </li>
+                      </ul>
+                  </button>
+              </div>
+
+          </div>
+
       
       
       <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>

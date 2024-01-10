@@ -4,7 +4,8 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {},
-    fontFamily:{ signature : ["Great Vibes"]
+    fontFamily:{ signature : ["Great Vibes"],
+                  Roboto :["Rubik Maps"]
   }
   },
   plugins: [],

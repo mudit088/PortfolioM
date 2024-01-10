@@ -13,13 +13,11 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 '>
-      <div>
-        <h1 className='text-5xl font-signature ml-2 m-4 sm:m-0'>Mudit Srivastava</h1>
-      </div>
-      <ul className='hidden md:flex'>
+    <div className='flex justify-center items-center w-full h-20 text-white fixed bg-black px-4 '>
+      
+      <ul className='hidden md:flex md:justify-center items-center '>
         {links.map(({ id, link }) => (
-          <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+          <li key={id} className='px-4 cursor-pointer capitalize text-xl text-gray-500 hover:scale-105 duration-200'>
             <Link to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}
