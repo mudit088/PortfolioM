@@ -11,9 +11,9 @@ const Home = () => {
                 <p className='text-2xl font-Roboto pt-3 pl-20  sm:pl-0 text-white'>A Web Develepor</p>
                 <p className='text-gray-500 py-4 max-w-md '>Seeking opportunities to collaborate within a team, leveraging strong problem-solving skills and a proactive attitude to tackle new challenges..</p>
                 <div className='flex ml-8 sm:ml-0 '>
-                <Link to="Portfolio" smooth duration={500} className='text-white w-fit m-2 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer  '>Portfolio</Link>
+                <Link to="Portfolio" smooth duration={500} className='text-white w-fit m-2 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-200  '>Portfolio</Link>
 
-                <button  className='text-white w-fit m-2 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer '>
+                <button  className='text-white w-fit m-2 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-200 '>
                   <ul>
                     <a href='/Resume.pdf' download ='Mudit-Resume'> Resume</a>
                   </ul>
