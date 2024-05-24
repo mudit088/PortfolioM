@@ -19,44 +19,24 @@ const Portfolio = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
 
 
-        <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
-
-          <img className='rounded-md duration-200 hover:scale-105' src="/Lern-web.png" alt="" />
-              <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                    <ul>
-                        <li>
-                          <a target='_blank' href="https://lern-web.vercel.app/">Demo</a>
-                        </li>
-                      </ul>
-                    </button>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                    <ul>
-                        <li>
-                          <a target='_blank' href="https://github.com/mudit088/Lern_web.git">Code</a>
-                        </li>
-                      </ul>
-                  </button>
-              </div>
-
-          </div>
+       
 
 
           <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
 
-          <img className='rounded-md duration-200  hover:scale-105' src="/Portfolio-pic.png" alt="" />
+          <img className='rounded-md duration-200  hover:scale-105' src="/vsoc.png" alt="" />
               <div className='flex items-center justify-center'>
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                     <ul>
                         <li>
-                          <a target='_blank' href="https://portfolio-m-tawny.vercel.app/">Demo</a>
+                          <a target='_blank' href="https://vsoc.vercel.app/">Demo</a>
                         </li>
                       </ul>
                     </button>
                     <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                     <ul>
                         <li>
-                          <a target='_blank' href="https://github.com/mudit088/PortfolioM.git">Code</a>
+                          <a target='_blank' href="https://github.com/mudit088/Vsoc.git">Code</a>
                         </li>
                       </ul>
                   </button>
@@ -64,56 +44,85 @@ const Portfolio = () => {
 
           </div>
 
+
+
       
       
+     
+
       <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
 
-        <img className='rounded-md duration-200 hover:scale-105' src="/web-Mymudra.png" alt="" />
-        <div className='flex items-center justify-center'>
-          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+<img className='rounded-md duration-200 hover:scale-105' src="/Lern-web.png" alt="" />
+    <div className='flex items-center justify-center'>
+        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
           <ul>
               <li>
-                <a target='_blank' href="https://website-mymudra.vercel.app/">Demo</a>
+                <a target='_blank' href="https://lern-web.vercel.app/">Demo</a>
               </li>
             </ul>
           </button>
           <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
           <ul>
               <li>
-                <a target='_blank' href="https://github.com/mudit088/website-Mymudra.git">Code</a>
+                <a target='_blank' href="https://github.com/mudit088/Lern_web.git">Code</a>
+              </li>
+            </ul>
+        </button>
+    </div>
+
+</div>
+
+<div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
+
+        <img className='rounded-md duration-200 hover:scale-105' src="/vinyasa.png" alt="" />
+        <div className='flex items-center justify-center'>
+          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+            <ul>
+              <li>
+                <a target='_blank' href="https://www.vinyasa.tech/">Demo</a>
+              </li>
+            </ul>
+          </button>
+          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+          <ul>
+              <li>
+                <a target='_blank' href="https://github.com/mudit088/Vinyasa_CSD.git">Code</a>
               </li>
             </ul>
           </button>
         </div>
 
       </div>
+
+
+<div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
+
+<img className='rounded-md duration-200 hover:scale-105' src="/web-Mymudra.png" alt="" />
+<div className='flex items-center justify-center'>
+  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+  <ul>
+      <li>
+        <a target='_blank' href="https://website-mymudra.vercel.app/">Demo</a>
+      </li>
+    </ul>
+  </button>
+  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+  <ul>
+      <li>
+        <a target='_blank' href="https://github.com/mudit088/website-Mymudra.git">Code</a>
+      </li>
+    </ul>
+  </button>
+</div>
+
+</div>
       
 
 
    
       
       
-      <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
-
-        <img className='rounded-md duration-200 hover:scale-105' src="/CRM-Mymudra.png" alt="" />
-        <div className='flex items-center justify-center'>
-          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-            <ul>
-              <li>
-                <a target='_blank' href="https://my-mudra-crm-table.vercel.app/">Demo</a>
-              </li>
-            </ul>
-          </button>
-          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-          <ul>
-              <li>
-                <a target='_blank' href="https://github.com/mudit088/My-Mudra.git">Code</a>
-              </li>
-            </ul>
-          </button>
-        </div>
-
-      </div>
+      
       
 
 
@@ -122,19 +131,19 @@ const Portfolio = () => {
       
       <div className='shadow-md shadow-gray-500 rounded-md duration-200 hover:scale-105'>
 
-        <img className='rounded-md duration-200 hover:scale-105' src="/RPS-jsgame.png" alt="" />
+        <img className='rounded-md duration-200 hover:scale-105' src="/food.png" alt="" />
         <div className='flex items-center justify-center'>
           <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
           <ul>
               <li>
-                <a target='_blank' href="https://mudit088.github.io/RockPaperScisssor/game.html">Demo</a>
+                <a target='_blank' href="https://mudit088.github.io/Lounge_Website/">Demo</a>
               </li>
             </ul>
           </button>
           <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
           <ul>
               <li>
-                <a target='_blank' href="https://mudit088.github.io/RockPaperScisssor/game.html">Code</a>
+                <a target='_blank' href="https://github.com/mudit088/Lounge_Website.git">Code</a>
               </li>
             </ul>
 
