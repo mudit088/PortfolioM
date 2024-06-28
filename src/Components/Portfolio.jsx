@@ -29,7 +29,7 @@ const Portfolio = () => {
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                     <ul>
                         <li>
-                          <a target='_blank' href="https://vsoc.vercel.app/">Demo</a>
+                          <a target='_blank' href="https://vsoc.tech/">Demo</a>
                         </li>
                       </ul>
                     </button>
